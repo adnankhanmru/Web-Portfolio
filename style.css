@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: rgb(28, 0, 45);
+  color: white;
+  
+}
+main{
+  margin: 40px 0px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.box{
+  display: flex;
+  background-color: white;
+  height: 10px;
+}
+.box-content{
+  padding: 20px;
+  font-size: 1.3rem;
+}
+.inst{
+  
+    display: flex;
+    font-size: 1.2rem;
+    margin: 10px 20px;
+    justify-content: center;
+    color: white;
+    transition-duration: 1s;
+}
+.inst:hover{
+  color: #79e4ff ;
+  transition: all 0.3s;
+}
+.inst1{
+  
+  display: flex;
+  font-size: 1.4rem;
+  margin: 10px 20px;
+  justify-content: center;
+  color: white;
+  transition-duration: 1s;
+}
+.inst1:hover{
+color: rgb(104, 2, 156) ;
+transition: all 0.3s;
+}
+.inst2{
+  
+  display: flex;
+  font-size: 1.4rem;
+  margin: 10px 20px;
+  justify-content: center;
+  color: white;
+  transition-duration: 1s;
+}
+.inst2:hover{
+color: #79e4ff ;
+transition: all 0.3s;
+}
+.section1 .boxforcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 6, 109);
+  height: 300px;
+  width: 300px;
+  border: #240239;
+  border-radius: 10% 0% 10% 0%;
+  transition-duration: 1s;
+}
+.section1 .boxforcontent:hover{
+  background-color: rgb(92, 1, 138);
+  height: 350px;
+  width: 350px;
+  border: #ffffff;
+  border-radius: 20%;
+  transition: all 0.3s;
+}
+.section2 .boxforcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 6, 109);
+  height: 300px;
+  width: 300px;
+  border: #240239;
+  border-radius: 0% 10% 0% 10%;
+  transition-duration: 1s;
+}
+.section2 .boxforcontent a{
+  color: rgb(255, 255, 255);
+  transition-duration: 1s;
+}
+.section2 .boxforcontent a:hover{
+  color: rgb(0, 0, 0);
+  transition:all 1s;
+}
+.section2 .boxforcontent:hover{
+  
+  background-color: rgb(117, 218, 255);
+  height: 350px;
+  width: 350px;
+  border-radius: 10%;
+  transition: all 0.3s;
+  
+}
+nav .left .sub-heading{
+  color: rgb(17, 34, 91);
+  font-size: 25px;
+} 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(63, 67, 255);
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 1.1rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  transition-duration: 1s;
+}
+
+nav ul li a:hover{
+  color: rgb(193, 138, 245);
+  font-size: 1.15rem;
+  
+}
+.section1 .rightSection img:hover{
+  width: 80.3%;
+  opacity: 100%;
+  transition: opacity 1s;
+}
+.formContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh;
+  padding: 30px;
+  border: 5px dotted;
+  font-size: 1.5rem;
+  }
+.fieldContainer{
+  margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.fieldContainer input{
+  justify-content: center;
+}
+.inputContainer{
+  display: inline-block;
+}
+.inputContainer input
+{
+  margin: 15px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.329);
+  color: white;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  justify-self: center;
+  transition-duration: 1s;
+}
+.inputContainer input:hover{
+  background-color: rgba(92, 0, 220, 0.628);
+  transition: all 1s;
+}
+#typed-text{
+  color: rgb(208, 188, 226);
+  font-size: 3rem;
+  transition-duration: 1s;
+}
+#typed-text:hover{
+  font-size: 3.5rem;
+  transition: font-size 0.5s;
+}
+.section1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+}
+.leftSection{
+  width: 30%; 
+  font-size: 3rem;  
+}
+.leftSection #myname{
+  color: rgb(165, 63, 216);
+  font-size: 3rem;
+  transition-duration: 1s;
+}
+
+.leftSection #myname:hover{
+  color: rgb(235, 200, 252);
+  font-size: 3.5rem;
+  transition: color 2s;
+  transition: font-size 0.3s;
+}
+
+hr {
+  border: 0;
+  border-radius: 50%;
+  background: #a689fd;
+  height: 25px;
+  margin: 100px 54px;
+}
+
+.section2{
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.aboutSection{
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  margin: 40px;
+}
+.section2 #myimg{
+  width: 300px;
+  border-radius: 40%;
+  opacity: 70%;
+  transition-duration: 1s;
+}
+.section2 #myimg:hover{
+  opacity: 100%;
+  transition: all 0.7s;
+}
+.rightSection{
+  width: 30%;  
+}
+.rightSection img{
+  width: 80%;
+  opacity: 70%;
+  margin: 10px;
+  transition-duration: 1s;
+}
+.left{
+  font-size: 2rem;
+}
+table {
+  font-size: 2rem;
+  border-spacing: 30px;
+  margin: 60px 0px;
+}
+.info-heading{
+  color: rgb(142, 160, 249);
+}
+.info-detail{
+  color: rgb(127, 221, 255);
+}
+.info-detail .item{
+  font-size: 2rem;
+  opacity: 70%;
+  transition-duration: 0.5s;
+}
+.info-detail li{
+  list-style: none;
+}
+.info-detail .item:hover{
+  color: rgb(193, 158, 224);
+  font-size: 2.15rem;
+  opacity: 100%;
+  transition: all 0.3s;
+}
+.info-detail a{
+  text-decoration: none;
+  color: rgb(127, 221, 255);
+}
+
+
+.footer {
+  background-color: #240239;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer li{
+  list-style: none;
+  
+}
+.footer li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.footer1{
+  font-size: 2rem;
+  color: #fde094;
+}
